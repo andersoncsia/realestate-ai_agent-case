@@ -1,0 +1,27 @@
+{
+  "case_id": "CASE-DEMO-001",
+  "agency": "Cedar & Oak Realty（虚构）",
+  "seller": "Maya Chen（虚构）",
+  "property": {
+    "address": "28 Cedar Lane, Sample City, CA（虚构地址）",
+    "beds": 3,
+    "baths": 2,
+    "living_area_sqft": 1840,
+    "year_built": 1998,
+    "property_type": "Single Family Home",
+    "hoa_status": "unknown",
+    "living_area_sqft_status": "unverified",
+    "year_built_status": "unverified"
+  },
+  "stage": "pre_listing",
+  "target_go_live_date": "TBD",
+  "property_facts_verified": [
+    "3 bedrooms",
+    "2 bathrooms",
+    "single-family property"
+  ],
+  "marketing_approved": false,
+  "broker_review_required": true,
+  "pricing_approved": false,
+  "internal_user_role": "listing_agent"
+}

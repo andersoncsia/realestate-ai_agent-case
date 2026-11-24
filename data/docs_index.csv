@@ -1,0 +1,10 @@
+document_id,document_name,status,notes
+D01,Seller questionnaire,received,Contains seller-reported updates; verify before publication
+D02,Pre-listing home inspection,received,Contains roof flashing and garage moisture observations
+D03,Floor plan,received,Indicates 1840 sq ft; area must be verified prior to listing
+D04,Renovation invoices,received,HVAC service invoice only
+D05,Seller disclosure statement,missing,Required applicability/content must be reviewed with broker under local rules
+D06,Roof inspection or repair record,missing,Ask seller if available; do not invent
+D07,HOA documents,unknown,First confirm whether property is subject to HOA
+D08,Listing agreement,needs_confirmation,Check executed status in brokerage system
+D09,Brokerage mock property verification,received,Confirms beds baths and property type only

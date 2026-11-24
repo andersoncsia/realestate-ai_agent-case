@@ -1,0 +1,1 @@
+按 agency-packet-review Skill 执行 CASE-DEMO-001，严格遵守输入及输出契约。逐项输出证据和未知项。不要假装已经调用真实工具或完成审批。

@@ -1,0 +1,1 @@
+依据 discovery/00_client_brief.md 和 01_discovery_questions.md 中的模拟访谈答案，生成内部经纪团队 Discovery Report：问题定义、As-Is、痛点与证据、To-Be、P0/P1/P2、风险、试点指标及待确认假设。将卖方视作资料来源而非产品用户。不要把假设写成实测。

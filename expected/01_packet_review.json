@@ -1,0 +1,103 @@
+{
+  "case_id": "CASE-DEMO-001",
+  "document_checklist": [
+    {
+      "id": "D01",
+      "status": "received",
+      "source": "docs_index.csv:D01"
+    },
+    {
+      "id": "D02",
+      "status": "received",
+      "source": "docs_index.csv:D02"
+    },
+    {
+      "id": "D03",
+      "status": "received",
+      "source": "docs_index.csv:D03"
+    },
+    {
+      "id": "D04",
+      "status": "received",
+      "source": "docs_index.csv:D04"
+    },
+    {
+      "id": "D05",
+      "status": "missing",
+      "source": "docs_index.csv:D05"
+    },
+    {
+      "id": "D06",
+      "status": "missing",
+      "source": "docs_index.csv:D06"
+    },
+    {
+      "id": "D07",
+      "status": "unknown",
+      "source": "docs_index.csv:D07"
+    },
+    {
+      "id": "D08",
+      "status": "needs_confirmation",
+      "source": "docs_index.csv:D08"
+    },
+    {
+      "id": "D09",
+      "status": "received",
+      "source": "docs_index.csv:D09"
+    }
+  ],
+  "inspection_issues": [
+    {
+      "source": "INS-02",
+      "observation": "localized flashing deterioration",
+      "follow_up": "qualified roofing contractor assessment",
+      "unknown": "cost, repair necessity, roof life"
+    },
+    {
+      "source": "INS-03",
+      "observation": "garage south wall moisture staining, source undetermined",
+      "follow_up": "qualified moisture intrusion evaluation",
+      "unknown": "source and cost"
+    },
+    {
+      "source": "INS-04",
+      "observation": "HVAC operated at inspection",
+      "follow_up": "routine filter replacement per report",
+      "unknown": "future performance"
+    }
+  ],
+  "actions": [
+    {
+      "owner": "Coordinator",
+      "source": "D05",
+      "next_action": "verify applicable disclosure process with broker",
+      "status": "missing"
+    },
+    {
+      "owner": "Coordinator",
+      "source": "D06",
+      "next_action": "ask if roofing record exists",
+      "status": "missing"
+    },
+    {
+      "owner": "Listing Agent",
+      "source": "D07",
+      "next_action": "confirm HOA applicability",
+      "status": "unknown"
+    },
+    {
+      "owner": "Listing Agent",
+      "source": "D08",
+      "next_action": "check executed agreement",
+      "status": "needs_confirmation"
+    }
+  ],
+  "missing_inputs": [
+    "verified living area and renovation evidence",
+    "authorized market data",
+    "confirmed publication date"
+  ],
+  "approval_required": true,
+  "status": "pending_review"
+}

@@ -1,0 +1,1 @@
+先检查市场数据授权、日期、样本数量和缺失字段；若只有默认未授权 comps，生成 Market Data Gap Report，不报价。若讲师明确提供 mock_market_authorized_training.csv 且指定教学授权，则计算三条模拟成交价和 DOM 的中位数，列出样本限制，不建议挂牌价。

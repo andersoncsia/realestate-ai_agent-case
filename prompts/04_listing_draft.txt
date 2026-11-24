@@ -1,0 +1,1 @@
+按 listing-package Skill，用 PF-01 的已核实事实生成 2 句英文房源描述、3 个 Listing Package 组成项，并单列 PF-02、PF-03、PF-04 待核实项。所有草稿标为 pending_review；不发布。

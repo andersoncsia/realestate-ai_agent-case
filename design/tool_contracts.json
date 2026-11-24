@@ -1,0 +1,58 @@
+{
+  "tools": [
+    {
+      "name": "get_case",
+      "input": {
+        "case_id": "string"
+      },
+      "authorization": "assigned employee only",
+      "output": "case_id, stage, source_revision",
+      "side_effect": "none"
+    },
+    {
+      "name": "list_documents",
+      "input": {
+        "case_id": "string"
+      },
+      "authorization": "assigned employee only",
+      "output": "document_id, status, version",
+      "side_effect": "none"
+    },
+    {
+      "name": "read_document",
+      "input": {
+        "case_id": "string",
+        "document_id": "string"
+      },
+      "authorization": "case membership and document ACL",
+      "output": "source text, source_ref, version",
+      "side_effect": "none"
+    },
+    {
+      "name": "save_draft",
+      "input": {
+        "case_id": "string",
+        "body": "structured object",
+        "source_revision": "integer"
+      },
+      "authorization": "assigned employee, schema validated",
+      "output": "draft_id, version, pending_review",
+      "side_effect": "internal draft only"
+    },
+    {
+      "name": "approve_draft",
+      "input": {
+        "draft_id": "string",
+        "version": "integer"
+      },
+      "authorization": "human broker, assigned case, current version and source revision",
+      "output": "approved or rejected",
+      "side_effect": "internal approval event only"
+    }
+  ],
+  "excluded": [
+    "send_email",
+    "publish_mls",
+    "set_price"
+  ]
+}

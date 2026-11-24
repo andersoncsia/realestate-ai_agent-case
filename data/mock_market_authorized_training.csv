@@ -1,0 +1,4 @@
+comp_id,property,sqft,sold_price_usd,dom,sold_date,source,verified
+T01,Training comp A,1780,900000,21,2026-10-15,SYNTHETIC_APPROVED_FOR_CLASS_ONLY,true
+T02,Training comp B,1920,960000,35,2026-10-22,SYNTHETIC_APPROVED_FOR_CLASS_ONLY,true
+T03,Training comp C,1850,930000,28,2026-10-30,SYNTHETIC_APPROVED_FOR_CLASS_ONLY,true
